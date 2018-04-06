@@ -19,6 +19,7 @@ class SurveyViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var descriptionView: UITextView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,7 +36,7 @@ class SurveyViewController: UIViewController {
             dateLabel.text = ""
         }
         
-
+        
         // Do any additional setup after loading the view.
     }
 
