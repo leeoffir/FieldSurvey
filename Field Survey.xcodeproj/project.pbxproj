@@ -14,6 +14,13 @@
 		4C0275EA20766D3100B42EEF /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0275E920766D3100B42EEF /* Field_SurveyTests.swift */; };
 		4C0275F520766D3100B42EEF /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0275F420766D3100B42EEF /* Field_SurveyUITests.swift */; };
 		4C0276082076821800B42EEF /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C0276072076821800B42EEF /* field_observations.json */; };
+		4C02760A20769A8500B42EEF /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02760920769A8500B42EEF /* Classification.swift */; };
+		4C02760C20769C4700B42EEF /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02760B20769C4700B42EEF /* FieldSurvey.swift */; };
+		4C27CF6C2077AED700C08799 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27CF6B2077AED700C08799 /* SurveyViewController.swift */; };
+		4C27CF702077BE8700C08799 /* SurveyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27CF6F2077BE8700C08799 /* SurveyViewCell.swift */; };
+		4C42235B2077C7ED008FF952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C42235A2077C7ED008FF952 /* Assets.xcassets */; };
+		4CC2E4E42077A9F800D18457 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E4E32077A9F800D18457 /* JSONParser.swift */; };
+		4CC2E4E62077AA9700D18457 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2E4E52077AA9700D18457 /* JSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		4C0275F420766D3100B42EEF /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		4C0275F620766D3100B42EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0276072076821800B42EEF /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = SOURCE_ROOT; };
+		4C02760920769A8500B42EEF /* Classification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = SOURCE_ROOT; };
+		4C02760B20769C4700B42EEF /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = SOURCE_ROOT; };
+		4C27CF6B2077AED700C08799 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		4C27CF6F2077BE8700C08799 /* SurveyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewCell.swift; sourceTree = "<group>"; };
+		4C42235A2077C7ED008FF952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/Field-Survey-master/Field Survey/Field Survey/Assets.xcassets"; sourceTree = "<group>"; };
+		4CC2E4E32077A9F800D18457 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = SOURCE_ROOT; };
+		4CC2E4E52077AA9700D18457 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,13 @@
 			children = (
 				4C02760220767C2D00B42EEF /* Model */,
 				4C0275D420766D3000B42EEF /* AppDelegate.swift */,
+				4C42235A2077C7ED008FF952 /* Assets.xcassets */,
 				4C0275D620766D3000B42EEF /* ViewController.swift */,
 				4C0275D820766D3000B42EEF /* Main.storyboard */,
 				4C0275DD20766D3100B42EEF /* LaunchScreen.storyboard */,
 				4C0275E020766D3100B42EEF /* Info.plist */,
+				4C27CF6B2077AED700C08799 /* SurveyViewController.swift */,
+				4C27CF6F2077BE8700C08799 /* SurveyViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -129,6 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				4C0276072076821800B42EEF /* field_observations.json */,
+				4C02760920769A8500B42EEF /* Classification.swift */,
+				4C02760B20769C4700B42EEF /* FieldSurvey.swift */,
+				4CC2E4E32077A9F800D18457 /* JSONParser.swift */,
+				4CC2E4E52077AA9700D18457 /* JSONLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -239,6 +260,7 @@
 			files = (
 				4C0276082076821800B42EEF /* field_observations.json in Resources */,
 				4C0275DF20766D3100B42EEF /* LaunchScreen.storyboard in Resources */,
+				4C42235B2077C7ED008FF952 /* Assets.xcassets in Resources */,
 				4C0275DA20766D3000B42EEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C27CF702077BE8700C08799 /* SurveyViewCell.swift in Sources */,
 				4C0275D720766D3000B42EEF /* ViewController.swift in Sources */,
+				4C27CF6C2077AED700C08799 /* SurveyViewController.swift in Sources */,
+				4CC2E4E42077A9F800D18457 /* JSONParser.swift in Sources */,
+				4CC2E4E62077AA9700D18457 /* JSONLoader.swift in Sources */,
 				4C0275D520766D3000B42EEF /* AppDelegate.swift in Sources */,
+				4C02760C20769C4700B42EEF /* FieldSurvey.swift in Sources */,
+				4C02760A20769A8500B42EEF /* Classification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
